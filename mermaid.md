@@ -1,3 +1,5 @@
+#Mermaid diagram
+
 graph TD;
     A[setup()] -->|Initierer hardware| B[scan_I2C()]
     A --> C[check_SPI()]
