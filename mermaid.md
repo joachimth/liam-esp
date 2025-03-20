@@ -1,5 +1,8 @@
-## Mermaid diagram
+# Liam-ESP Funktionsdiagram
 
+Dette diagram viser hovedfunktionerne i *liam-esp*-softwaren og deres afhængigheder.
+
+```mermaid
 graph TD;
     A[setup()] -->|Initierer hardware| B[scan_I2C()]
     A --> C[check_SPI()]
