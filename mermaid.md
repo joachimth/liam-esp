@@ -1,4 +1,4 @@
-#Mermaid diagram
+## Mermaid diagram
 
 graph TD;
     A[setup()] -->|Initierer hardware| B[scan_I2C()]
